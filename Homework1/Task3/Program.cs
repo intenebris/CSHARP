@@ -8,8 +8,8 @@ int number = Convert.ToInt32(Console.ReadLine());
 int checkNumber = number % 2;
 if(checkNumber == 0)
 {
-    System.Console.WriteLine("Число " + number + " является четным");
+    System.Console.WriteLine("четное");
 }else
 {
-    System.Console.WriteLine("Число " + number + " не является четным");
+    System.Console.WriteLine("нечетное");
 }
