@@ -1,2 +1,14 @@
-﻿// See https://aka.ms/new-console-template for more information
-Console.WriteLine("Hello, World!");
+﻿void PrintSquares (int limit)
+{
+    int i = 1;
+    while (i <= limit) 
+    {
+        System.Console.Write($"{i*i} ");
+        i++;
+    }
+    System.Console.WriteLine("\n");
+}
+
+PrintSquares (5);
+PrintSquares (10);
+PrintSquares (15);
