@@ -1,20 +1,26 @@
-﻿using System;
+﻿// Задайте массив на 10 целых чисел. 
+// Напишите программу, которая определяет количество чётных чисел в массиве.
+
+// Начальные условия:
+
+// int[] array = {2, 5, 2, 3, 6, 3, 7, 8, 2, 4}; // Создание массива
+// Выводится: 6
+
+using System;
 using System.Linq;
 
 //Тело класса будет написано студентом. Класс обязан иметь статический метод PrintResult()
 class UserInputToCompileForTest
 {
-    // Подсчет количества элементов массива, попадающих в заданный диапазон
+    // Подсчет количества четных элементов массива
     // numbers - массив, в котором ведется подсчет
-    // minRange - минимальная граница диапазона
-    // maxRange - максимальная граница диапазона
-    public static int CountItemsRange(int[] numbers, int minRange, int maxRange)
+    public static int CountEvenItems(int[] numbers)
     {
-        //Введите сюда свое решение
+        //Напишите свое решение здесь
         int counter = 0;
         for (int i = 0; i < numbers.Length; i++)
         {
-            if (numbers[i] >= minRange && numbers[i] <= maxRange)
+            if (numbers[i] % 2 == 0)
             {
                 counter++;
             }
@@ -24,14 +30,11 @@ class UserInputToCompileForTest
 
     public static void PrintResult(int[] array)
     {
-
-        //Введите сюда свое решение
-        int result = CountItemsRange(array, 10, 90);
+        //Напишите свое решение здесь
+        int result = CountEvenItems(array);
         Console.WriteLine(result);
     }
-
 }
-
 
 //Не удаляйте и не меняйте класс Answer!
 class Answer
@@ -57,7 +60,7 @@ class Answer
         else
         {
             // Если аргументов на входе нет
-            array = new int[] { 1, 5, 10, 20, 30, 40, 99, 4, 90, 3 }; // Создание массива
+            array = new int[] { 2, 5, 2, 3, 6, 3, 7, 8, 2, 4 }; // Создание массива
         }
         UserInputToCompileForTest.PrintResult(array);
     }
