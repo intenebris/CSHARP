@@ -40,14 +40,22 @@ bool isEven(int digit)
 void RequestIntegerInConsole()
 {
     int number = 0;
+    string input = "Старт программы.";
     int sum = 0;
     while (true)
     {
         System.Console.WriteLine("Введите целое число: ");
-        number = Convert.ToInt32(Console.ReadLine());
+        input = Console.ReadLine();
+        if (input == "q")
+        {
+            System.Console.WriteLine("Вы вышли из программы, потому что ввели символ q");
+            break;
+        }
+        number = Convert.ToInt32(input);
         sum = GetSumOfNumbers(number);
         if (isEven(sum))
         {
+            System.Console.WriteLine("Выполнено одно из условий. Вы вышли из программы");
             break;
         }
     }
