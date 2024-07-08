@@ -1,0 +1,15 @@
+C:\gb-workshop\CSHARP\Seminar6\Extra_Task\bin\Debug\net8.0\Extra_Task.exe
+C:\gb-workshop\CSHARP\Seminar6\Extra_Task\bin\Debug\net8.0\Extra_Task.deps.json
+C:\gb-workshop\CSHARP\Seminar6\Extra_Task\bin\Debug\net8.0\Extra_Task.runtimeconfig.json
+C:\gb-workshop\CSHARP\Seminar6\Extra_Task\bin\Debug\net8.0\Extra_Task.dll
+C:\gb-workshop\CSHARP\Seminar6\Extra_Task\bin\Debug\net8.0\Extra_Task.pdb
+C:\gb-workshop\CSHARP\Seminar6\Extra_Task\obj\Debug\net8.0\Extra_Task.GeneratedMSBuildEditorConfig.editorconfig
+C:\gb-workshop\CSHARP\Seminar6\Extra_Task\obj\Debug\net8.0\Extra_Task.AssemblyInfoInputs.cache
+C:\gb-workshop\CSHARP\Seminar6\Extra_Task\obj\Debug\net8.0\Extra_Task.AssemblyInfo.cs
+C:\gb-workshop\CSHARP\Seminar6\Extra_Task\obj\Debug\net8.0\Extra_Task.csproj.CoreCompileInputs.cache
+C:\gb-workshop\CSHARP\Seminar6\Extra_Task\obj\Debug\net8.0\Extra_Task.sourcelink.json
+C:\gb-workshop\CSHARP\Seminar6\Extra_Task\obj\Debug\net8.0\Extra_Task.dll
+C:\gb-workshop\CSHARP\Seminar6\Extra_Task\obj\Debug\net8.0\refint\Extra_Task.dll
+C:\gb-workshop\CSHARP\Seminar6\Extra_Task\obj\Debug\net8.0\Extra_Task.pdb
+C:\gb-workshop\CSHARP\Seminar6\Extra_Task\obj\Debug\net8.0\Extra_Task.genruntimeconfig.cache
+C:\gb-workshop\CSHARP\Seminar6\Extra_Task\obj\Debug\net8.0\ref\Extra_Task.dll
